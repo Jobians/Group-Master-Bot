@@ -163,10 +163,6 @@ def start(update: Update, context: CallbackContext):
                         escape_markdown(first_name), escape_markdown(context.bot.first_name)),
                 reply_markup=InlineKeyboardMarkup([
     [
-        InlineKeyboardButton(
-            text="➕️ Add me to your chat ➕️", url=f"https://t.me/{context.bot.username}?startgroup=true"),
-    ],
-    [
         InlineKeyboardButton(text="Admin", callback_data="admin_back"),
         InlineKeyboardButton(
             text="Users", callback_data="user_back"
@@ -240,8 +236,8 @@ def yone_about_callback(update: Update, context: CallbackContext):
             reply_markup=InlineKeyboardMarkup(
                 [
                    [
-                     InlineKeyboardButton(text="Support", url="https://t.me/TrickyAbhii_Op"),
-                     InlineKeyboardButton(text="News", url="https://t.me/Techno_Trickop"),
+                     InlineKeyboardButton(text="Developer", url="https://t.me/jobianstechie"),
+                     InlineKeyboardButton(text="News", url="https://t.me/TeamAirdropSupporter"),
                    ],
                    [
                     InlineKeyboardButton(text="Back", callback_data="yone_back")
