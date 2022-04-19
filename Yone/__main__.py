@@ -83,8 +83,8 @@ def get_readable_time(seconds: int) -> str:
     return ping_time
 
 
-PM_START_TEXT = """ Hello *{}*, My name is *{}*! 
-A telegram group management bot. I'm here to help manage only jobians groups.
+PM_START_TEXT = """ Hello *{}*, My name is {}! 
+A telegram group management bot. *I'm here to help manage only jobians groups.*
 
 """
 
