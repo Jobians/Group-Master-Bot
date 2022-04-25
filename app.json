@@ -8,7 +8,7 @@
        "manager",
        "yone"
     ],   
- "repository": "https://github.com/SJMxADITI/TrickyAbhi-Bot",
+ "repository": "https://github.com/Jobians/Group-Master-Bot",
  "addons": [
     {
        "options": {
@@ -59,12 +59,12 @@
     },
     "OWNER_USERNAME": {
        "description": "Your username without the @",
-       "value": "ABHIISH3K_xD"
+       "value": "JobiansTechie"
     },
     "SUPPORT_CHAT": {
        "description": "Your Telegram support group chat username where your users will go and bother you with shit But be like: MyGroupChatUsernameBlah. If this ever points to masha support than consider you made an enemy.",
        "required": true,
-       "value": "Techno_Trickop"
+       "value": "JobiansTechie"
     },      
     "PHOTO": {
        "description": "Your Telegram Bot Image (Add Link Only).",
